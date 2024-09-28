@@ -10,7 +10,8 @@ Loop for the number of attempts
 Get the player's guess
 	Check if the guess is correct
     	IF player_guess is random_number THEN
-        PRINT Congratulations! You guessed the right number >> client.txt
+        PRINT Congratulations! You guessed the right number 
+
   End the game if the guess is correct
     ELSE
         IF player_guess is random_number THEN
