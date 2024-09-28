@@ -2,3 +2,26 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+AT FIRST
+	PRINT Welcome to the Number Guessing Game!
+	SET random_number (1, 10)  
+	SET max_attempts is 3
+Loop for the number of attempts
+Get the player's guess
+	Check if the guess is correct
+    	IF player_guess is random_number THEN
+        PRINT Congratulations! You guessed the right number >> client.txt
+  End the game if the guess is correct
+    ELSE
+        IF player_guess is random_number THEN
+            PRINT -Too low! Try again.
+        ELSE
+            PRINT  Too high! Try again.
+        ENDIF
+    ENDIF
+If this is the last attempt
+    IF attempts are max_attempts THEN
+        PRINT Sorry, you've used all your attempts. Show the correct number
+  Thank you for playing
+END
+
