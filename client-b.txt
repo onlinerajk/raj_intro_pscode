@@ -2,3 +2,24 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+START
+
+Initialize the warehouse grid
+SET warehouse_width and height in rows and columns
+CREATE warehouse_grid as 2D array of size [warehouse_height][warehouse_width]
+
+Initialize customer starting position (set x and y to 0)
+
+Initialize target location (example coordinates in x and y position)
+PRINT Welcome to the Warehouse Mapping Application!
+PRINT You are currently at Right position 
+
+Loop until customer reaches the target location
+
+Update customer Moving position based on the move(NEWS)
+If customer reached to target location
+then
+PRINT Congratulations! You've reached your target location
+
+END
+
